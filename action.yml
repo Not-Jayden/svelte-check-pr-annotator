@@ -1,6 +1,6 @@
-name: "{tool-name} PR Annotator"
-description: "Annotate pull requests with {tool-name} errors detected during CI"
-author: "Joe Young"
+name: "Svelte Check PR Annotator"
+description: "Annotate pull requests with Svelte-Check errors detected during CI"
+author: "prgm.dev"
 runs:
   using: "composite"
   steps:
