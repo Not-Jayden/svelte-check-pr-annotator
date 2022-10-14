@@ -1,8 +1,8 @@
-# {tool-name} PR Annotator
+# Svelte-Check PR Annotator
 
 ## Usage
 
-Annotate pull requests with `svelte-check` errors detected during CI.
+Annotate pull requests with [`svelte-check`](https://github.com/sveltejs/language-tools/tree/master/packages/svelte-check) errors detected during CI.
 
 Note: This doesn't install or run `svelte-check`, it just sets up the PR annotations.
 
