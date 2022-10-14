@@ -1,5 +1,8 @@
-name: "Svelte Check PR Annotator"
+name: "Svelte-Check PR Annotator"
 description: "Annotate pull requests with Svelte-Check errors detected during CI"
+branding:
+  icon: alert-triangle
+  color: red
 author: "prgm.dev"
 runs:
   using: "composite"
