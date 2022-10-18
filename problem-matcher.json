@@ -5,8 +5,7 @@
             "pattern": [
                 {
                     // Matches the 1st line in the output
-                    "regexp": "^[0-9]+\\s+START\\s+\"(.*)\"$",
-                    "fromPath": 1
+                    "regexp": "^[0-9]+\\s+START\\s+\"(.*)\"$"
                 },
                 {
                     // Matches the error, warning and hint lines in the output
