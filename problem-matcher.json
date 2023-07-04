@@ -5,11 +5,11 @@
             "pattern": [
                 {
                     // Matches the 1st line in the output
-                    "regexp": "^[0-9]+\\s+START\\s+\"(.*)\"$"
+                    "regexp": "^[0-9]+T[0-9:.]+Z\\s+[0-9]+\\s+START\\s+\"(.*)\"$"
                 },
                 {
-                    // Matches the error, warning and hint lines in the output
-                    "regexp": "^[0-9]+\\s+(WARNING|ERROR|HINT)\\s+\"(.*)\"\\s+([0-9]*):([0-9]*)\\s+\"(.*)\"$",
+                    // Matches the error, warning, and hint lines in the output
+                    "regexp": "^[0-9]+T[0-9:.]+Z\\s+##\\[(ERROR|WARNING|HINT)\\]\\s+[0-9]+\\s+\"(.*)\"\\s+([0-9]+):([0-9]+)\\s+\"(.*)\"$",
                     // File path Root is carried through from above, so we define the rest of the groups
                     "severity": 1,
                     "file": 2,
